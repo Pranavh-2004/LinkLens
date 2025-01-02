@@ -1,0 +1,27 @@
+# Ignore Nim's build output
+*.nimble
+*.c
+*.o
+*.a
+*.dll
+*.exe
+*.so
+
+# Ignore Nim's compilation artifacts
+/build/
+bin/
+out/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore editor specific files (e.g., VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# Ignore package manager directories
+.nimble/
